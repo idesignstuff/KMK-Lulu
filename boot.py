@@ -21,7 +21,7 @@ usb_hid.enable(
 # Enable USB CDC (serial console) for debugging
 usb_cdc.enable(console=True, data=True)
 
-# Make the filesystem read-only when connected via USB
-# This protects against accidental file modifications
-# To make it writable again, comment out the line below
+# Make the filesystem writable when connected via USB
+# This allows easy editing and updates during development
+# For production use, change to readonly=True to protect against accidental modifications
 storage.remount("/", readonly=False)

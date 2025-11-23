@@ -116,6 +116,7 @@ CTL_SC = KC.HT(KC.SCLN, KC.RCTL)  # ;/Control
 # ============================================================================
 
 # Example macros using simple_key_sequence
+# CUSTOMIZE: Replace with your own email address
 MACRO_EMAIL = simple_key_sequence([
     KC.MACRO_SLEEP_MS(10),
     KC.H, KC.E, KC.L, KC.L, KC.O,

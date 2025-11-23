@@ -68,7 +68,9 @@ class KMKKeyboard(_KMKKeyboard):
 
 
 # Coordinate mapping for the Lulu keyboard
-# This maps physical key positions to matrix positions
-# The Lulu has 58 keys arranged in a split layout
-# Using standard matrix layout (6 rows x 5 columns per side)
-coord_mapping = []
+# For a split keyboard with standard matrix layout, KMK will automatically
+# map coordinates sequentially. The left half uses 0-29, right half 30-59.
+# Explicit coord_mapping is only needed for non-standard layouts.
+# Since the Lulu uses a standard 6x5 matrix per side with sequential
+# key positions, we can rely on KMK's default mapping.
+# If you need custom mapping, define it as: coord_mapping = [0, 1, 2, ...]
