@@ -170,14 +170,14 @@ ADJUST_MO = KC.MO(ADJUST)
 # Default Lulu/Lily58 keymap with home row mods and macros
 keyboard.keymap = [
     # ============================================================================
-    # Layer 0: BASE (QWERTY)
+    # Layer 0: BASE (QWERTY) - 58 keys
     # ============================================================================
     [
         KC.GRV,   KC.N1,    KC.N2,    KC.N3,    KC.N4,    KC.N5,                                          KC.N6,    KC.N7,    KC.N8,    KC.N9,    KC.N0,    KC.BSPC,
         KC.TAB,   KC.Q,     KC.W,     KC.E,     KC.R,     KC.T,                                           KC.Y,     KC.U,     KC.I,     KC.O,     KC.P,     KC.MINS,
         KC.ESC,   CTL_A,    ALT_S,    GUI_D,    SFT_F,    KC.G,                                           KC.H,     SFT_J,    GUI_K,    ALT_L,    CTL_SC,   KC.QUOT,
         KC.LSFT,  KC.Z,     KC.X,     KC.C,     KC.V,     KC.B,     KC.LBRC,                    KC.RBRC,  KC.N,     KC.M,     KC.COMM,  KC.DOT,   KC.SLSH,  KC.RSFT,
-                                      KC.LCTL,  KC.LGUI,  LOWER_MO, KC.SPC,   KC.ENT,   KC.ENT, KC.SPC,   RAISE_MO, KC.RALT,  KC.RCTL,
+                                      KC.LALT,  LOWER_MO, KC.SPC,   KC.ENT,                     KC.ENT,   KC.SPC,   RAISE_MO, KC.RALT,
     ],
     
     # ============================================================================
@@ -188,7 +188,7 @@ keyboard.keymap = [
         KC.TRNS,  KC.N1,    KC.N2,    KC.N3,    KC.N4,    KC.N5,                                          KC.N6,    KC.N7,    KC.N8,    KC.N9,    KC.N0,    KC.UNDS,
         KC.TRNS,  KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,                                          KC.LEFT,  KC.DOWN,  KC.UP,    KC.RGHT,  KC.NO,    KC.PIPE,
         KC.TRNS,  KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.TRNS,                    KC.TRNS,  KC.HOME,  KC.PGDN,  KC.PGUP,  KC.END,   KC.NO,    KC.TRNS,
-                                      KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS, KC.TRNS, ADJUST_MO,KC.TRNS,  KC.TRNS,
+                                      KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,                    KC.TRNS,  ADJUST_MO,KC.TRNS,  KC.TRNS,
     ],
     
     # ============================================================================
@@ -199,7 +199,7 @@ keyboard.keymap = [
         KC.TRNS,  KC.EXLM,  KC.AT,    KC.HASH,  KC.DLR,   KC.PERC,                                        KC.CIRC,  KC.AMPR,  KC.ASTR,  KC.LPRN,  KC.RPRN,  KC.PLUS,
         KC.TRNS,  KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,                                          KC.MINS,  KC.EQL,   KC.LBRC,  KC.RBRC,  KC.BSLS,  KC.GRV,
         KC.TRNS,  KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.TRNS,                    KC.TRNS,  KC.UNDS,  KC.PLUS,  KC.LCBR,  KC.RCBR,  KC.PIPE,  KC.TRNS,
-                                      KC.TRNS,  KC.TRNS,  ADJUST_MO,KC.TRNS,  KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,  KC.TRNS,  KC.TRNS,
+                                      KC.TRNS,  ADJUST_MO,KC.TRNS,  KC.TRNS,                    KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,
     ],
     
     # ============================================================================
@@ -210,7 +210,7 @@ keyboard.keymap = [
         KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,                                          KC.RGB_TOG,KC.RGB_HUI,KC.RGB_SAI,KC.RGB_VAI,KC.RGB_ANI,KC.NO,
         KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,                                          KC.RGB_M_P,KC.RGB_HUD,KC.RGB_SAD,KC.RGB_VAD,KC.RGB_AND,KC.NO,
         KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,    KC.NO,                      KC.NO,    KC.RGB_M_B,KC.RGB_M_R,KC.RGB_M_BR,KC.RGB_M_K,KC.RGB_M_S,KC.NO,
-                                      KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS, KC.TRNS, KC.TRNS,  KC.TRNS,  KC.TRNS,
+                                      KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,                    KC.TRNS,  KC.TRNS,  KC.TRNS,  KC.TRNS,
     ],
 ]
 
