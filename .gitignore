@@ -1,0 +1,29 @@
+# CircuitPython
+.Trashes
+.metadata_never_index
+.fseventsd
+.DS_Store
+*.swp
+*.pyc
+.vscode/
+.idea/
+
+# KMK compiled files
+*.mpy
+__pycache__/
+
+# Temporary files
+*.bak
+*.tmp
+*~
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# CircuitPython lib directory (should be downloaded separately)
+lib/
+
+# Settings and local overrides
+settings.toml
+secrets.py
